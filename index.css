@@ -53,17 +53,23 @@
 #right{
 	width: 60%;
 	float: right;
-	height: 100%;
+	height: 100%
 	overflow: hidden;
 	margin-right: 30px;}
+#right h1{
+	font-size: 30px;
+	color: aliceblue;
+	margin-top: 10px;
+	text-align: center;}
 #right h2{
+	font-size: 25px;
 	color: aliceblue;
 	margin-top: 10px;
 	padding-left: 10px;/*距离左内边距10px*/
 	border-left: 10px solid aquamarine;}
 #right p{
-	margin-top:20px;
-	font-size: 20px;
+	margin-top:10px;
+	font-size: 22px;
 	letter-spacing: 10px;}
 
 
@@ -72,8 +78,8 @@
 	margin: auto;
 	display: flex;}
 #img-box img{
-	width: 240px;
-	height: 160px;
+	width: 20%px;
+	height: 170px;
 	object-fit: cover;
 	padding:10px 20px;
 	box-shadow: inset 2px 5px 20px aqua;}
@@ -89,25 +95,39 @@
 	letter-spacing: 10px;}
 
 @media(max-width:1200px){
+	#top{height: 350px;}
+	#nav{height:40px;line-height: 40px;}
 	#main{height: 800px;}
 	#left img{width: 70%;height: 27%;}
+	#right h1{font-size: 27px;}
+	#right h2{font-size: 23px;}
+	#img-box img{width: 200px;height: 150px;}
 	#right p{
-	font-size: 17px;
-	letter-spacing: 1px;}
-}
+	font-size: 18px;
+	letter-spacing: 3px;}
 
 @media(max-width:992px){
+	#top{height: 250px;}
+	#nav{height:25px;line-height: 25px;}
 	#main{height: 700px;}
 	#left img{width: 70%;height: 27%;}
+	#right h1{font-size: 24px;}
+	#right h2{font-size: 21px;}
+	#img-box img{width: 150px;height: 120px;}
 	#right p{
-	font-size: 13px;
+	font-size: 15px;
 	letter-spacing: 1px;}
 }
 
 @media(max-width:768px){
+	#top{height: 150px;}
+	#nav{height:15px;line-height: 15px;}
 	#main{height: 600px;}
 	#left img{width: 70%;height: 27%;}
+	#img-box img{width: 100px;height: 100px;}
+	#right h1{font-size: 21px;}
+	#right h2{font-size: 19px;}
 	#right p{
-	font-size: 10px;
+	font-size: 12px;
 	letter-spacing: 1px;}
 }
